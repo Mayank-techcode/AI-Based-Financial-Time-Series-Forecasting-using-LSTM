@@ -56,7 +56,7 @@ def Display_Table(title, dataframe, rows=10):
 # Step 1 : Load Dataset
 # ------------------------------------------------------------
 
-Marvellous_Header("MARVELLOUS INFOSYSTEMS - RELIANCE STOCK FORECASTING USING LSTM")
+Marvellous_Header("RELIANCE STOCK FORECASTING USING LSTM")
 
 DATASET_PATH = "marvellous_reliance_stock_sample.csv"
 
@@ -505,7 +505,7 @@ Marvellous_Header("STEP 16 : TRAINING LOSS GRAPH")
 plt.figure(figsize=(10, 5))
 plt.plot(history.history["loss"], label="Training Loss")
 plt.plot(history.history["val_loss"], label="Validation Loss")
-plt.title("Marvellous LSTM Training Loss")
+plt.title("LSTM Training Loss")
 plt.xlabel("Epoch Number")
 plt.ylabel("Loss")
 plt.legend()
